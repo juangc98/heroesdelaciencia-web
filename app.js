@@ -1,10 +1,7 @@
 
-//           ¿Lo que esta comentado hace falta? - Yo pienso que se necesita para poder leer el archivo science.json con toda la lista de personajes.
-
 const express = require('express');
 
 const app = express();
-
 
 
 const homeRutes = require('./routes/home');
