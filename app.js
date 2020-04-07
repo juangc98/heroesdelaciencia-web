@@ -1,13 +1,11 @@
 
 //           ¿Lo que esta comentado hace falta? - Yo pienso que se necesita para poder leer el archivo science.json con toda la lista de personajes.
-//const fs = require('fs');
 
 const express = require('express');
 
 const app = express();
 
-//const listaHeroesJSON = require('./science');
-//const listaHeroes = readFileSync.listaHeroesJSON ;
+
 
 const homeRutes = require('./routes/home');
 const heroesRutes = require('./routes/heroes');

@@ -1,3 +1,8 @@
+const fs = require('fs');
+const listaHeroesJSON = fs.readFileSync('science.json');
+const listaHeroes = JSON.parse(listaHeroesJSON);
+
+console.log(listaHeroesJSON);
 
 const heroesController = {
     index: function(req, res){
